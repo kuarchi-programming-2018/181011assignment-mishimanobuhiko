@@ -21,9 +21,14 @@
 # おみくじプログラム
 
 import random
-line = input().rstrip()
+import sys
+line = input().rstrip().split(“,”)
+print(line)
+number=len(line)
+omikuji=random.randrange(number)
+print(line[omikuji])
 
-# 今回は自力で全部書いてみよう！
+# 今回は自力で全部書いてみよう！a
 
 # カンマで分割して、リストに代入
 # リストの要素数を変数に代入

@@ -12,6 +12,10 @@
 ...
 西暦1988年は昭和63年です
 '''
+for seireki in range(1926,1988):
+      print("西暦" + str(seireki) + "年は",end="")
+      syouwa=seireki - 1925
+      print("昭和" + str(syouwa) + "年です")
 
 # 西暦年と昭和年の対応表
 # 1926年から1988年までをループで出力
